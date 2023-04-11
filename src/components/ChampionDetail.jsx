@@ -22,7 +22,7 @@ setImg(result.url);
   useEffect(()=>{
     getChamp()
     getImgChamp()
-  },[])
+  })
   return (
     <>
     <div className="champion-detail">
