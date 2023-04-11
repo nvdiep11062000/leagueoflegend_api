@@ -42,7 +42,7 @@ const MainPages = () => {
               <div id="news">
                 {dataNews.map(item => (
                   <div className="newItem" key={item.name}>
-                      <a>
+                      <Link>
                           <div className="imgBox">
                               <img src={item.image} alt='news'/>
                           </div>
@@ -57,7 +57,7 @@ const MainPages = () => {
                                   <p className="time">{item.time}</p>
                               </div>
                           </div>
-                      </a>
+                      </Link>
                   </div>
                 ))}
               </div>
