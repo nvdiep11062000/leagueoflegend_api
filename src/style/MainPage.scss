@@ -1,0 +1,151 @@
+.background-slide{
+    background-image: url("../images/blurred1.jpg");
+    width: 100%;
+    height: 520px;
+    background-size: 100% 100%;
+    background-size: cover;
+    position: relative;
+
+    .mySwiper{
+        width: 1220px;
+        height: 100%;
+        padding: 30px 0;
+
+        .swiper-slide img{
+            width: 100%;
+            height: 400px;
+        }
+        
+        .swiper-pagination{
+            cursor: pointer;
+            margin-bottom: 20px;
+
+            .swiper-pagination-bullet{
+                margin: 0 4px;
+                width: 12px;
+                height: 12px;
+                background: #559392;
+                opacity: 1!important;
+
+                &-active{
+                    background: #c2902d;
+                }
+            }
+        }
+    }
+}
+
+.main-page-content{
+    position: relative;
+    min-height: 1000px;
+    padding: 0 10%;
+    
+    .center{
+        margin: 8rem 0;
+        margin-left: -10rem;
+        
+        #news{
+            display: flex;
+            flex-wrap: wrap;
+            //width: 100%;
+            overflow: hidden;               
+
+            .newItem{
+                cursor: pointer;
+                width: calc(33.33% - 10rem);
+                text-align: left;
+                display: flex;
+                margin-left: 10rem;
+                margin-bottom: 3rem;
+                
+                a {
+                    display: flex;
+                    flex-direction: column;
+
+                    .imgBox{
+                        height: 22rem;
+                        background-position: center;
+                        background-size: cover;
+                        flex-shrink: 0;
+                    }
+
+                    .info{
+                        flex: 1;
+                        margin: 0.18rem 0;
+                        padding: 0 0.8rem;
+                        display: flex;
+                        flex-direction: column;
+
+                        .info-top{
+                            display: flex;
+                            flex-direction: column;
+                            flex: 1;
+                            
+
+                            .category{
+                                color: var(--category);
+                                font-size: 1.5rem;
+                                font-weight: 700;
+                                height: 3.5rem;
+                                
+                            }
+    
+                            .tittle{
+                                font-size: 20px;
+                                font-weight: 900;
+                                line-height: 1.5;
+                                overflow: visible;
+                                white-space: normal;
+                                padding-bottom: 1rem;
+                            }
+    
+                            .content{
+                                font-size: 1.5rem;
+                                color: gray;
+                                line-height: 1.5;
+                                flex-shrink: 0;
+                                margin-top: auto;
+                            }
+
+                        }
+
+                        .info-bottom{
+                            flex-shrink: 0;
+                            margin-top: auto;
+
+                            .time{
+                                margin-top: 2rem;
+                                //flex-shrink: 0;
+                                font-size: 1.5rem;
+                                color: gray;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}
+
+.btn{
+    width: 18rem;
+    height: 4rem;
+    margin-bottom: 9rem;
+
+      a{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        color: #000;
+    }
+}
+// .zzz{
+//     min-height: 500px;
+// }

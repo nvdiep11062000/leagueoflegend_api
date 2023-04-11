@@ -1,0 +1,55 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,500&family=Poppins:ital,wght@0,100;0,200;0,400;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    align-items: center;
+    padding: 0 10% ;
+    background: var(--header);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 7rem;
+
+    .logo{
+        position: relative;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+    }
+
+    .pc-nav{
+        position: relative;
+        width: 100%;
+
+        .nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .nav-item{
+                cursor: pointer;
+                font-size: 2rem;
+                list-style: none;
+                text-transform: uppercase;
+                font-weight: 600;
+                width: 16.66666%;
+
+                a{
+                    color: #c19e68;
+                    // -webkit-background-clip: text;
+                    // background-clip: text;
+                    // -webkit-text-fill-color: tan;
+                    font-size: 1.8rem;
+                }
+            
+            }
+
+        }
+
+    }
+
+}

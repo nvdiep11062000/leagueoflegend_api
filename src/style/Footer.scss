@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,500&family=Poppins:ital,wght@0,100;0,200;0,400;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+.footer{
+    padding: 10px ;
+    color: #fff;
+    background: #101215;
+
+    .main-footer{
+        padding: 0 10%;
+        height: 100%;
+        width: 1200px;
+            font: 12px Microsoft JhengHei,arial;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 43px auto 0;
+
+            .logo{
+                width: 100%;
+                height: 65px;
+                background: url(../images/logos-vn.png) no-repeat;
+                background-position: center 0;
+            }
+
+            .contact{
+                margin: 3rem 0;
+                .link{
+                    color: #fff;
+                    display: inline-flex;
+                    align-items: center;
+                    flex: 1 1 auto;
+                    padding: 30px 10px;
+                    position: relative;
+                    box-sizing: border-box;
+
+                    .link-txt{
+                        margin-left: 10px;
+                    }
+
+                    &:hover{
+                        color: #0bc6e4;
+                        cursor: pointer;
+                    }
+                }
+
+                .play-free{
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: center;
+                    height: 50px;
+
+                    .btn{
+                        margin-right: 3rem;
+                    }
+
+                    .play-for-free{
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 1.7rem;
+                        color: #000;
+                        font-family: 'Roboto',sans-serif;
+                        font-weight: 500;
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+
+                    .age-limit{
+                        background: url(../images/vn-12.png);
+                        width: 116px;
+                        height: 51px;
+                        line-height: 52px;
+                        font-size: 16px;
+                        vertical-align: middle;
+                        display: inline-block;
+                        background-size: contain;
+                    }
+                }
+            }
+
+            
+    }
+}
+
+
+

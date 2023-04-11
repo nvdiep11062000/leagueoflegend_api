@@ -1,0 +1,79 @@
+.champion-detail{
+    background-color: #000;
+    height: 100%;
+    .background-img{
+        img{
+        position: relative;        
+        // left: -5%;
+        // top: -10px;
+        width: 100%;
+        height: 100%;
+        filter: blur(10px);
+        }
+    }
+
+    .container{
+        .img-champ{
+            position: absolute;
+            top: 100px;
+            left: 150px;
+            object-fit: cover;
+            
+            .name-champ{
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                span:first-child{
+                    font-style: italic;
+                    font-size: 30px;
+                    color: white;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    font-weight: 600;
+                }
+                span{
+                    font-style: italic;
+                    margin-top: -70px;
+                    font-size: 50px;
+                    color: white;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    font-weight: 800;
+                }
+
+            }
+        }
+        .infor-champ{           
+            width: 100%;
+            height: 500px;
+
+            .infor-lore-champ{
+                position: absolute;
+                z-index: 99;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                margin-top: -70px ;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                font-size: 15px;
+                padding: 20px 20px;
+                line-height: 20px;
+                color: black;
+                border-radius: 10px;
+            }
+            .infor-skill-champ{
+                padding-top: 40px;
+                color: #fff;
+                font-size: 30px;
+                font-weight: 600;
+                span{
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+
+}
