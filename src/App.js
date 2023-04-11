@@ -2,7 +2,6 @@ import MainPages from "./pages/MainPages";
 import "./style/Global.scss";
 import {Routes,Route} from 'react-router-dom';
 import Headers from "./components/Header";
-import Footer from "./components/Footer";
 import ChampionShow from "./pages/ChampionShow";
 import ChampionDetail from "./components/ChampionDetail";
 function App() {

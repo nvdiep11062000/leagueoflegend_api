@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect,createContext } from 'react'
+import { useState, useEffect } from 'react'
 import axios from 'axios'
 import Champion from '../components/Champion'
 import { imagechampapi } from '../data/api'
@@ -12,7 +12,7 @@ const ChampionShow = () => {
 
   useEffect(() => {
     getAllChamp();
-  },[]);
+  },);
 
 
   const getAllChamp = async() => {
@@ -35,6 +35,7 @@ const ChampionShow = () => {
       })
     );
     // console.log("champarr>>>>",champarr);
+    console.log(response)
     setchampionList(champarr);
   };
   return (

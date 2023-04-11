@@ -65,7 +65,7 @@ const MainPages = () => {
       </div>
 
       <div className="btn">
-            <a href="#">Xem Thêm</a>
+            <Link>Xem Thêm</Link>
       </div>
       <Footer/>
     </>
